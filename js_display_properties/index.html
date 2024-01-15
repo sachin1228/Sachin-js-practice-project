@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>JavaScript Display Possibilities</h1>
+<P>JavaScript can "display" data in different ways:</P>
+
+<ul>
+ <li>Writing into an HTML element, using <code class="w3-codespan">innerHTML</code>.</li>
+ <li>Writing into the HTML output using <code class="w3-codespan">document.write()</code>.</li>
+  <li>Writing into an alert box, using <code class="w3-codespan">window.alert()</code>.</li>
+  <li>Writing into the browser console, using <code class="w3-codespan">console.log()</code>.</li>
+</ul>
+
+<button id="test"></button>
+
+<script>
+  // 1
+  document.getElementById("test").innerHTML = 5+6 ;
+  // 2
+  document.write("sachin - if you write this it will appear on html file")
+
+  //3
+  window.alert("hi")
+
+  //4
+  console.log("this is console log message")
+</script>
+
+</body>
+</html>
